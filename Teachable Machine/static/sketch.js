@@ -37,10 +37,10 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(247);
   // Draw the image and explanation text in the canvas
   image(pokerHandImage, 0, 0, width, height / 2);
-  fill(255);
+  fill(0);
   textSize(18);
   textAlign(CENTER, CENTER);
   text(explanation, width / 2, height / 1.2);
